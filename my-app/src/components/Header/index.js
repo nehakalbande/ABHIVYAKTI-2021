@@ -31,23 +31,23 @@ const Header = ({ t }) => {
     };
     return (
       <Fragment>
-        {/* <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <S.Span>{t("About")}</S.Span>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
+          <S.Span>{t("Antara")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
+          <S.Span>{t("To The Beat")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <S.Span>{t("Product")}</S.Span>
+          <S.Span>{t("Kavyanjali")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall
+        {/* <S.CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
-        >
-          <S.Span>
+        > */}
+        {/* <S.Span>
             <Button>{t("Contact")}</Button>
-          </S.Span>
-        </S.CustomNavLinkSmall> */}
+          </S.Span> */}
+        {/* </S.CustomNavLinkSmall> */}
       </Fragment>
     );
   };

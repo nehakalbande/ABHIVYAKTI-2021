@@ -54,6 +54,18 @@ const Footer = ({ t }) => {
                   href="https://www.instagram.com/abhivyakti_iiitn/?hl=en"
                   src="instagram.svg"
                 />
+                <SocialLink
+                  href="https://www.facebook.com/Abhivyakti.iiitn/"
+                  src="facebook.svg"
+                />
+                <SocialLink
+                  href="https://twitter.com/IIITN_OFFICIAL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                  src="twitter.svg"
+                />
+                <SocialLink
+                  href="https://www.linkedin.com/in/iiitnofficial/?originalSubdomain=in"
+                  src="linkedin.svg"
+                />
               </S.FooterContainer>
             </Row>
           </Container>
